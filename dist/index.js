@@ -53,4 +53,8 @@ const addBlock = (candidateBlock) => {
         blockchain.push(candidateBlock);
     }
 };
+createNewBlock("second block");
+createNewBlock("third block");
+createNewBlock("fourth block");
+console.log(blockchain);
 //# sourceMappingURL=index.js.map
